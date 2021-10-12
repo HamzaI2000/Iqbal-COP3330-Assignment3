@@ -1,12 +1,7 @@
-This will help read the data from Scanner object to the ArrayLis
+This will help read the data from Scanner object to the ArrayList
 Define the function to print the names in the file
-Create a FileWriter for the output file
-Write the header of the output file about how many names are read from the input file
-Write the output FileWriter to avoid memory leakage
-Create an scanner object to read from input file
-Declare an ArrayList for storing the names
-Read the names from the input file by calling the readNames() function
-Sort the list of names using sort function
-Close the scanner object after reading the file
-Write the required data to the output file
-
+Now, you will a FileWriter for the output file
+Write  a header of the output and go through with it, then write the output 
+Create an scanner object for read while creating an ArrayList to store names
+Call the readname() function and sort it as a list
+Close scanner object as required by the data of the output file
