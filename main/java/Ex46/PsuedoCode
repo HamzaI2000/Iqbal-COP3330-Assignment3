@@ -1,4 +1,4 @@
 Create File Descriptor for input file
-Initalize the word Array
+You must create the word Array
 Create  File Reader object and create BufferedReader object
 Initalize the word to zero and then split the word using space while checking for count not equal to zero
