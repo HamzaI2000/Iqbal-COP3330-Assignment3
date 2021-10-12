@@ -1,3 +1,3 @@
-Method to print the details in tabular format.
-It takes the name of the filename as its parameter
-Driver method to test the code
+You must print the fole and filename through scanner
+It will take the parameter by name for the nextline through string
+You must use a driver method to test the code
