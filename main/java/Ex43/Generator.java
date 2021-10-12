@@ -20,9 +20,9 @@ public class Generator {
         siteName = SC.nextLine();
         System.out.print("Author: ");
         author = SC.nextLine();
-        System.out.print("Do you want a folder for JavaScript? ");
+        System.out.print("Would you want a folder for JavaScript? ");
         js = SC.next().charAt(0);
-        System.out.print("Do you want a folder for CSS? ");
+        System.out.print("Would you want a folder for CSS? ");
         css = SC.next().charAt(0);
         currentPath = System.getProperty("user.dir");
         currentPath += "\\"+siteName;
@@ -35,8 +35,6 @@ public class Generator {
             {
                 FileWriter skeletonWriter = new FileWriter(new File(currentPath+"\\index.html"));
                 skeletonWriter.write("\t<title>"+siteName+"</title>\n");
-                skeletonWriter.write("</head>\n<body>\n\n</body>\n</html>");
-                skeletonWriter.write("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n");
                 skeletonWriter.write("\t<meta author=\""+author+"\">\n");
                 skeletonWriter.close();
                 System.out.println("Created " + currentPath+"\\index.html");
