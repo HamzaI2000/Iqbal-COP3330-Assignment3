@@ -1,0 +1,5 @@
+You must pass the path to the file as a parameter, then make the file is correct
+Create another Scanner object to get the input
+Name the output of user
+Create Filewriter object
+And then makke the path of the Output file, then close the file

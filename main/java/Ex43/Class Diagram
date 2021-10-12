@@ -1,0 +1,4 @@
+Generator
+main(args: String[])
++ outputNames(names, author: ArrayList<String>)
++ askJavaScript(input: Scanner, names: ArrayList<String>)

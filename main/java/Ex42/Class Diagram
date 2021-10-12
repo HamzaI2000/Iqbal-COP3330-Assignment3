@@ -1,0 +1,4 @@
+Employee
+main(args: print())
++ salary(input: Scanner, names: ArrayList<String>)
++ readNames(input: Scanner, names: ArrayList<String>)

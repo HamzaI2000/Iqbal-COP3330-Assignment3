@@ -1,0 +1,6 @@
+You will prompt for the name of the site
+You will prompt for the author of the site
+Ask the user if they want a folder in JavaScript files
+You will ask the user for a folder for CSS files
+You must generate a index.html file that contains the name of the site inside the <title> tag
+Provide a specified site as a zip file

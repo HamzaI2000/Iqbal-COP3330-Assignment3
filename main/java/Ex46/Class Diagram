@@ -1,0 +1,4 @@
+Word Search
+main(args: String[])
++ outputFrequency(names: ArrayList<String>)
++ readOutput(input: Scanner, names: ArrayList<String>)
