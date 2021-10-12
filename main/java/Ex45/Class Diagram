@@ -1,4 +1,4 @@
-Sorter
+Word Finder
 main(args: String[])
-+ outputNames(names: ArrayList<String>)
-+ readNames(input: Scanner, names: ArrayList<String>)
++ outputFfile(names: <String>)
++ readFile(input: Scanner, writerfile: Ar<String>)
