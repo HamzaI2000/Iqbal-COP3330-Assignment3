@@ -16,47 +16,30 @@ public class WordFinder {
 
     public static void main(String[] args) throws IOException {
 
-        File file = new File("C:\\Users\\Ankit\\Desktop\\example45.txt");
+        File file = new File("C:\\Users\\Ankitt\\Desktop\\example45.txt");
         Scanner sc = new Scanner(file);
 
-        // create another Scanner object to prompt input from user via console
 
         Scanner s = new Scanner(System.in);
 
-        // prompt the name of Output File from user
-
-        System.out.print("\nEnter the name of Output File : ");
+        System.out.print("\nEnter name of Output File : ");
 
         String outputfile = s.next();
 
-        // create a FileWriter object to write into a file
-        // make sure that path of file should be correct
+        FileWriter writer = new FileWriter("C:\\Users\\Ankitt\\Desktop\\"+outputfile);
 
-        FileWriter writer = new FileWriter("C:\\Users\\Ankit\\Desktop\\"+outputfile);
-
-
-        // try and finally block to handle exception
 
         try
         {
 
-            // using while loop read file
-
             while( sc.hasNext() )
             {
 
-                // read whole line
 
                 String user = sc.nextLine();
 
-                // replace utilize by use
-
                 user = user.replaceAll("utilize", "use");
-
-                // and write into outputfile
-
                 writer.write(user);
-
                 writer.write("\n");
 
 
@@ -71,7 +54,7 @@ public class WordFinder {
 
         writer.close();
 
-        System.out.println("\nSuccessfully Modified!!");
+        System.out.println("\nSuccesfully Modified!!");
 
     }
 }
