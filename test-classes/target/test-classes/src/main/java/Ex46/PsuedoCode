@@ -1,0 +1,7 @@
+//Creation of File Descriptor for input file
+//Intialize the word Array
+//Creation of File Reader object
+//Creation of BufferedReader object
+//Intialize the word to zero
+//Split the word using space
+//Check for count not equal to zero
