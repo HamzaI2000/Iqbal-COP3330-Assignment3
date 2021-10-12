@@ -1,10 +1,7 @@
-To read json file, first you need to add one external library
-This is the library json-simple-1.1.1.jar
-Create one json parser object
+You must read the json file, by adding a external library for it 
+You must also create an json parser object
 
-Read and create json file using parser and store it in obj
-Reading products array from  the file
-Create buffered reader object to take user input
-
-Create buffered reader object to take user input
+Read and create json file while storing it at the obj
+Products of array by the file
+You must create a buffer
 
